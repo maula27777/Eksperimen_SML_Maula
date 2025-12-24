@@ -3,8 +3,8 @@ from sklearn.preprocessing import StandardScaler
 import os
 
 def preprocess_data(
-    input_path="namadataset_raw/heart.csv",
-    output_path="preprocessing/namadataset_preprocessing/heart_processed.csv"
+    input_path="heart_raw/heart.csv",
+    output_path="preprocessing/heart_preprocessing/heart_preprocessing.csv"
 ):
     df = pd.read_csv(input_path)
 
